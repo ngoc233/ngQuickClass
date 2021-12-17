@@ -169,6 +169,7 @@ app.get('/join/*', (req, res) => {
             console.log("join into room");
             //do not some thing
         });
+        console.log(gToken.isRoleTeacher);
         if(gToken.isRoleTeacher){
             return res.sendFile(path.join(__dirname, 'www/teacher.html'));
         }
