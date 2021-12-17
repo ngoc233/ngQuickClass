@@ -1,0 +1,2 @@
+# ngQuickClass
+test quick class
