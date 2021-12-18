@@ -70,16 +70,14 @@ Open the app with the following **supported browsers** & many more...
 -   You will need to have `Node.js` installed, this project has been tested with Node version [12.X](https://nodejs.org/en/blog/release/v12.22.1/) and [14.X](https://nodejs.org/en/blog/release/v14.17.5/)
 
 ```bash
-# clone this repo
-$ git clone https://github.com/miroslavpejic85/mirotalk.git
-# go to mirotalk dir
-$ cd mirotalk
 # copy .env.template to .env
 $ cp .env.template .env
-# install dependencies
-$ npm install
-# start the server
-$ npm start
+# build or rebuild services
+$ docker-compose build
+# create and start containers
+$ docker-compose up # -d
+# stop and remove resources
+$ docker-compose down
 ```
 
 -   Open http://localhost:3000 in browser
