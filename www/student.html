@@ -82,12 +82,12 @@ access to use this app.
             <button id="audioBtn" class="fas fa-microphone"></button>
             <button id="videoBtn" class="fas fa-video"></button>
             <button id="swapCameraBtn" class="fas fa-sync-alt" style="display:none"></button>
-            <button id="screenShareBtn" class="fas fa-desktop" style="display:none"></button>
-            <button id="recordStreamBtn" class="fas fa-record-vinyl" style="display:none"></button>
+            <button id="screenShareBtn" class="fas fa-desktop"></button>
+            <button id="recordStreamBtn" class="fas fa-record-vinyl"></button>
             <button id="fullScreenBtn" class="fas fa-expand-alt"></button>
             <button id="chatRoomBtn" class="fas fa-comment"></button>
             <button id="myHandBtn" class="fas fa-hand-paper"></button>
-            <button id="whiteboardBtn" class="fas fa-chalkboard-teacher" style="display:none"></button>
+            <button id="whiteboardBtn" class="fas fa-chalkboard-teacher"></button>
             <button id="fileShareBtn" class="fas fa-folder-open"></button>
             <button id="mySettingsBtn" class="fas fa-cogs"></button>
             <button id="aboutBtn" class="fas fa-question" style="display:none"></button>
@@ -279,8 +279,8 @@ access to use this app.
 
         <!-- Start whiteboard -->
 
-        <section id="whiteboard" class="hidden">
-            <header id="whiteboardHeader" class="whiteboard-header" style="display:none">
+        <section id="whiteboard">
+            <header id="whiteboardHeader" class="whiteboard-header">
                 <div id="whiteboardTitle" class="whiteboard-header-title"></div>
                 <div class="whiteboard-header-options">
                     pencil
@@ -304,7 +304,7 @@ access to use this app.
                 </div>
             </header>
             <main>
-                <!-- <canvas id="wbCanvas"></canvas> -->
+                <canvas id="wbCanvas"></canvas>
             </main>
         </section>
 
